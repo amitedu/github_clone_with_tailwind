@@ -1,0 +1,27 @@
+{
+  "name": "tailwind_starter_template_JIT",
+  "version": "1.0.0",
+  "description": "Tailwind Starter Template with Just In Time",
+  "main": "index.js",
+  "scripts": {
+    "dev": "set TAILWIND_MODE=watch&postcss tailwind.css -o ./public/styles.css -w --verbose",
+    "prod": "set NODE_ENV=production&postcss tailwind.css -o ./public/styles.css --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amitedu/tailwind_starter_template_JIT.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amitedu/tailwind_starter_template_JIT/issues"
+  },
+  "homepage": "https://github.com/amitedu/tailwind_starter_template_JIT#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.2.6",
+    "cssnano": "^5.0.6",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.2.4"
+  }
+}
