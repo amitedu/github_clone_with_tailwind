@@ -2,6 +2,7 @@
 Tailwind Starter Template with Just In Time and minify with cssnano.
 
 How to use:
+
     Step-1: npm install
         // Install all dependence
     Step-2: npm run dev
